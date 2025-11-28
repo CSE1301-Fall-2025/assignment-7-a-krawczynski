@@ -38,6 +38,7 @@ public class CourseRosterPreliminaryTest {
 	@Rule
 	public TestRule timeout = UnitTestUtils.createTimeoutRule();
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		Course course = new Course("CSE 131", 3, capacity);

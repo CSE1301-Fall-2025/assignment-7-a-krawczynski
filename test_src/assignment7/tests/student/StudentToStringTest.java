@@ -39,6 +39,7 @@ public class StudentToStringTest {
 	@Rule
 	public TestRule timeout = UnitTestUtils.createTimeoutRule();
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		Student student = new Student(firstName, lastName, id);

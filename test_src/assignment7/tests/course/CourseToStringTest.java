@@ -37,6 +37,7 @@ public class CourseToStringTest {
 	@Rule
 	public TestRule timeout = UnitTestUtils.createTimeoutRule();
 
+	@SuppressWarnings("deprecation")
 	@Test
 	public void test() {
 		int capacity = 20;
